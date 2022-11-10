@@ -7,7 +7,9 @@ jobs:
       - name: Print greeting
         run: |
           echo "Hello World!"
-          echo "What should I say?"
+          echo "What should I ssy?"
+      - name: Print questions
+          echo "What do you want to know?"
       - name: Print goodbye
         run: |
           echo "Done - bye!"
